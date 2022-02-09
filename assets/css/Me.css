@@ -1,0 +1,123 @@
+.contenido-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+
+.contenido-box input {
+  font-size: 1em;
+  margin-top: 10px;
+}
+
+.Izquierda {
+  width: 60%;
+  height: 800px;
+  padding: 20px;
+  /*border-radius: 20px;*/
+  /*margin: 20px;*/
+  /*margin: auto;*/
+}
+
+.Izquierda img {
+  -o-object-fit: cover;
+  object-fit: cover;
+  border-radius: 20px;
+  height: 100%;
+  width: 100%;
+}
+
+.Derecha {
+  margin: 20px;
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  width: 40%;
+  border-radius: 20px;
+  display: grid;
+  outline: 2px solid #b3b3b3;
+  padding: 20px;
+}
+
+.Derecha h2 {
+  margin: auto;
+}
+
+.Derecha img {
+  width: 140px;
+  margin: 20px;
+  border-radius: 100%;
+}
+
+.Derecha input {
+  width: 80%;
+}
+
+
+
+.Derecha div {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  margin: auto;
+}
+
+.Derecha a {
+  font-size: 1.2em;
+  text-decoration: none;
+  margin: auto;
+}
+
+@media screen and (max-width: 900px) {
+  .Derecha {
+    width: 100%;
+    margin-top: 20px;
+    margin: 0px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .contenido-box {
+    margin-top: 50px;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 900px) {
+
+  .Izquierda,
+  .Izquierda img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .Derecha input {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .Derecha input[id="Adop"] {
+    margin-bottom: 50px;
+  }
+}
+
+.contenido-box p,
+label {
+  text-align: left;
+  margin-left: 2%;
+}
+
+.contenido-box label {
+  font-size: 1em;
+}
+
+.contenido-box hr {
+  margin-left: 2%;
+  margin-right: 2%;
+  outline: 2px solid #b3b3b3;
+  border-radius: 10%;
+}

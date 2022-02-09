@@ -1,0 +1,50 @@
+.content-map {
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.content-map ul {
+    margin-left: 10px;
+    list-style: none;
+    margin-top: 10px;
+}
+
+.content-map ul li {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.content-map ul li a {
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(107, 107, 107);
+}
+
+.content-map ul li a:hover {
+    color: rgb(0, 169, 211);
+}
+
+section {
+    max-width: 1400px;
+    margin: auto;
+}
+
+@media (max-width: 900px) {
+    section {
+        margin-top: 50px;
+    }
+
+    .content-map {
+        margin-left: 8px;
+    }
+
+    .content-map ul {
+        margin-left: 3px;
+    }
+
+    .content-map ul li {
+        margin-left: 10px;
+    }
+
+}

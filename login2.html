@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Inicio de Sesion | ID-PETS</title>
+    <meta name="description"
+        content="ID-PETS es un lugar donde los amantes de los animales pueden reportar animales perdidos o encontrados y llevar un registro de los animales rescatados." />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Sans&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+Hanifi+Rohingya&amp;display=swap">
+    <link rel="stylesheet" href="assets/css/Login.css">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
+</head>
+
+<body>
+    <div class="fondo">
+        <div class="login-box">
+            <img class="avatar" src="assets/img/Gato_sonriendo.png" alt="Gato que luce feliz">
+
+            <form id='formLogi' action="index.html" method="post" class="form_login needs-validation"
+                onsubmit="return Validar();">
+
+                <label for="username">Usuario:</label>
+                <input type="text" class="form-control" id="nombre" name="username" placeholder="Ingrese Usuario*"
+                    required>
+
+                <label for="password">Contraseña:</label>
+                <input type="password" class="form-control" id="clave" name="password" placeholder="Ingrese Contraseña*"
+                    required>
+                <h4>Seleccione la Serpiente</h4>
+                <div class="capcha">
+                
+                    
+                    <label id="1" for="respuesta1">
+                        <input type="radio" id="respuesta1" name="opc" value="1" class="oprimido" required>
+                        <img class="answer1" src="assets/img/Respuesta1.jpg" alt="R1">
+                    </label>
+                    <label id="2" for="respuesta2">
+                        <input type="radio" id="respuesta2" name="opc" value="2" class="oprimido">
+                        <img class="answer2" src="assets/img/Respuesta2.jpg" alt="R2"></label>
+                    <label id="3" for="respuesta3">
+                        <input type="radio" id="respuesta3" name="opc" value="3" class="oprimido">
+                        <img class="answer3" src="assets/img/Respuesta3.jpg" alt="R3"></label>
+                </div>
+
+                <input class="buton" type="submit" value="Entrar">
+
+                <a href="forgot_password.html" id="Restablecer_Contraseña"> Olvide mi contraseña </a>
+                <br>
+                <a href="Register.html" id="Registrarse"> Aun no tengo una cuenta </a>
+
+            </form>
+
+        </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/Login.min.js"></script>
+    <script src="assets/js/ValidarCamposR.min.js"></script>
+    <script src="assets/js/Web.min.js"></script>
+</body>
+
+</html>

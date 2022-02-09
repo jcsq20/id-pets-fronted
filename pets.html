@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Mascotas | ID-PETS</title>
+    <meta name="description" content="ID-PETS es un lugar donde los amantes de los animales pueden reportar animales perdidos o encontrados y llevar un registro de los animales rescatados."/>
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Sans&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+Hanifi+Rohingya&amp;display=swap">
+    <link rel="stylesheet" href="assets/css/pets.min.css">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="encabezado-box">
+                <div class="listas">
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="about-us.html">¿Quienes somos?</a></li>
+                        <li><a href="pets.html">Mascotas</a></li>
+                        <li>
+                            <ul style="padding-left: 1px;">
+                                <div class="dropdown">
+                                    <li><a href="#">Mi cuenta</a></li>
+                                    <div class="dropdown-content">
+                                        <li><a href="Me.html">Mi Perfil</a></li>
+                                        <li><a href="Cambiar-contrasena.html">Cambiar-contrasena</a></li>
+                                        <li><a href="#">Cerrar sesion</a></li>
+                                    </div>
+                                </div>
+                            </ul>
+                        </li>
+                        <li><a href="login2.html">Log in</a></li>
+                    </ul>
+                </div>
+                <h1><a href="index.html">ID PETS</a></h1>
+                <div class="listas-nav">
+                    <ul>
+                        <li><a href="index.html">Pagina Principal &gt;</a></li>
+                        <li><a href="#">Mascotas</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="contenido-box">
+        <div class="Izquierda">
+            <h1>MASCOTAS</h1>
+            <form action="pets.html" method="POST" class="Mascotas" onsubmit="return Validar_Mascotas();">
+                <div class="conten-form">
+                    <input type="text" id="Ubicacion" placeholder="*Ubicacion:" required>
+                    <input type="text" id="Direccion" placeholder="*Direccion: "required>
+                </div>
+                <div class="conten-form">
+                    <input type="text" id="Ciudad" placeholder="*Ciudad:" required>
+                    <input type="text" id="Descripcion" placeholder="Descripcion: ">
+                </div>
+                <div class="conten-form">
+                    <input type="text" id="Nombre" placeholder="Nombre:">
+                    <input type="text" id="Edad" placeholder="Edad: ">
+                </div>
+                <div class="conten-form">
+                    <input type="text" id="Peso" placeholder="Peso:">
+                    <input type="text" id="Raza" placeholder="Raza:">
+                </div>
+                <div class="conten-form">
+                    <input type="text" id="Estado" placeholder="*Estado:"required>
+                    <input type="text" id="Medica" placeholder="*Descripcion medica:"required>
+                </div>
+                <div class="conten-form">
+                    <input type="text" id="Codigo" placeholder="#D1F24A" disabled="disabled">
+                </div>
+                <input class="buton" type="submit" value="Enviar">
+
+            </form>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127343.4570824251!2d-73.67910116612437!3d4.124925653326942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3e2ddfba283211%3A0x537e40041d7b20c2!2sVillavicencio%2C%20Meta!5e0!3m2!1ses!2sco!4v1643540081946!5m2!1ses!2sco"
+                width="80%" height="300" style="border:0;" allowfullscreen="" loading="lazy" class="m-3"></iframe>
+        </div>
+        <div class="Derecha">
+            <img src="assets/img/Perro_sonriendo_en_la_playa.jpg" alt="Perro_aparentemente_amigable">
+
+        </div>
+
+    </div>
+    <footer>
+        <div class="infromacion-box">
+
+
+            <label id="Terminos"><b>Terminos y Condiciones</b></label>
+            <p>No vendemos tus datos personales a los anunciantes ni compartimos ningún tipo de información con ellos que te
+                identifique directamente (como tu nombre, dirección de correo electrónico u otros datos de contacto), a
+                menos
+                que nos des permiso específico.
+                En su lugar, los anunciantes nos proporcionan información, como el tipo de audiencia a la que quieren llegar
+                con
+                sus anuncios, y nosotros los mostramos a las personas que puedan estar interesadas en ellos. Asimismo,
+                ofrecemos
+                a los anunciantes
+                informes sobre el rendimiento de su publicidad a fin de que sepan de qué manera interactúan las personas con
+                su
+                contenido. Consulta la Sección 2 a continuación para obtener más información al respecto.
+            </p>
+            <a href="map_site.html">Mapa del Sitio</a>
+            <div>
+                <label id="Numero_contacto"><b>Numero de contacto: </b> +57 321 807 3610</label>
+                <label id="Numero_telefono"><b>Numero de telefono: </b> 01 8000 930 930</label>
+                <label id="Direccion"><b>Dirección: </b> Cra 25 #30a - 06, Villavicencio</label>
+                <label id="e-mail"><b>Correo electronico: </b> soporteid-pets@gmail.com</label>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/pets.min.js"></script>
+    <script src="assets/js/Validar.min.js"></script>
+    <script src="assets/js/ValidarCamposR.min.js"></script>
+    <script src="assets/js/Web.min.js"></script>
+</body>
+
+</html>
